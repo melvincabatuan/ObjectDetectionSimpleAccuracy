@@ -8,6 +8,13 @@ This is software for performing a simple detection using a trained cascade class
 
 USAGE:
 ./detect_simple -model <model.xml> -testfiles <list.txt> -detections <output.txt>
+
+Modification (MKC): Computes Precision, Recall, and F1 score
+
+USAGE 
+
+./detect_simple -model <model.xml> -annotations <annotations.txt> -detections <output.txt>
+
 ***********************************************************************************************/
 
 #include <iostream>
